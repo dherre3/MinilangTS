@@ -1,0 +1,28 @@
+{
+  "name": "minilang",
+  "version": "0.0.1",
+  "description": "Minilang implementation using Typescript as the scanning and parsing language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "jshintConfig":{
+    "esversion":6
+  },
+  "author": "David Herrera",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^7.0.18",
+    "@types/yargs": "^6.6.0",
+    "browserify": "^14.3.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "merge2": "^1.0.3",
+    "node": "0.0.0",
+    "tsify": "^3.0.1",
+    "typescript": "^2.3.2",
+    "typings": "^2.1.1",
+    "vinyl-source-stream": "^1.1.0",
+    "yargs": "^8.0.1"
+  }
+}
