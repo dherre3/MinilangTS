@@ -1,2 +1,2 @@
-#!/usr/bin/bash
-node src/index.js -f "$@"
+#!/bin/bash
+node dist/js/index.js -f "$@"

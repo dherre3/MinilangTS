@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "jshintConfig":{
-    "esversion":6
+  "jshintConfig": {
+    "esversion": 6
   },
   "author": "David Herrera",
   "license": "MIT",
@@ -24,5 +24,9 @@
     "typings": "^2.1.1",
     "vinyl-source-stream": "^1.1.0",
     "yargs": "^8.0.1"
+  },
+  "dependencies": {
+    "@types/colors": "^1.1.3",
+    "colors": "^1.1.2"
   }
 }

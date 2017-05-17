@@ -6,7 +6,7 @@ class Minilang {
     constructor(sourceFilePath) {
         this.source = fs.readFileSync(sourceFilePath).toString();
         this.scanner = new scanner_1.Scanner(this.source);
-        console.log(this.scanner.getSemanticAttributes());
+        let tokens = this.scanner.getTokens();
     }
 }
 exports.Minilang = Minilang;
